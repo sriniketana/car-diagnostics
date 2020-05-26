@@ -17,6 +17,7 @@ app.get('/', (req, res) => {
        "vehicleNumber" : "KA04AA1234"
      }
   }];
+  // Return diagnostics data
   res.send(JSON.stringify(diagdata));
 });
  
